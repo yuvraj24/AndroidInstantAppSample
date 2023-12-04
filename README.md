@@ -26,3 +26,16 @@
 <br>
 3. Select Run > Run in the menu bar, or click Run    in the toolbar, then choose the device where you'd like to test your actual native app's experiences. Your app's experience loads on the test device that you've chosen.
 
+## Instant App
+
+We are using the react-native-modal & react-native-webview npm package to load video KYC agent URL,
+https://www.npmjs.com/package/react-native-modal
+<br>
+https://www.npmjs.com/package/react-native-webview
+
+By default, the app is configured to open the WEBRTC video and audio sample URL in Webview.
+https://webrtc.github.io/samples/src/content/devices/input-output
+<br>
+<br>
+<img width="300" alt="Screenshot 2023-12-04 at 12 08 39 AM" src="https://github.com/yuvraj24/android-instantapp-sample/assets/24696317/d2a2fdbf-e476-4070-b4ba-24bb63e58515">
+
