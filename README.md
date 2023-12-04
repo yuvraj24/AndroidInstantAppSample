@@ -2,7 +2,7 @@
 
 ## To test your instant app experience on a local machine using Android Studio, complete the following steps:
 
-- If you have an installed version of your app on your test device, uninstall it.
+- If you have an actual native version of your app on your test device, uninstall it.
 - Run the **yarn react-native start** command from the instant_app folder in the terminal which will start the metro bundler that connects your device and js code.
 - In Android Studio, click on Edit Configurations & from the installation options that appear on the General tab of the Run/Debug Configurations dialog, enable the Deploy as instant app checkbox.
 <img width="1039" alt="Screenshot 2023-12-04 at 11 35 39 AM" src="https://github.com/yuvraj24/android-instantapp-sample/assets/24696317/7c6e0510-92c8-47f5-9c30-d31812e1f4f7">
@@ -16,7 +16,7 @@
 
 ## To test the actual native app experience on your test device, complete the following steps:
 
-- If you have an instant app version of your app on your test device, uninstall it.
+- If you have an instant app version of your app on your test device, uninstall it by going to Settings > Manage Apps. Instant apps will not be visible in app menu.
 - Run the **yarn react-native start** command from the instant_app folder in the terminal which will start the metro bundler that connects your device and js code.
 - In Android Studio, click on Edit Configurations & from the installation options that appear on the General tab of the Run/Debug Configurations dialog, disable the Deploy as instant app checkbox.
 <img width="1039" alt="Screenshot 2023-12-04 at 11 35 39 AM" src="https://github.com/yuvraj24/android-instantapp-sample/assets/24696317/7c6e0510-92c8-47f5-9c30-d31812e1f4f7">
